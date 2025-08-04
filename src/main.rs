@@ -1,3 +1,10 @@
+fn choose_favorite<'a>(first: &str, second: &'a str) -> &'a str {
+    println!("{}", first);
+    second
+}
+fn main() { // Class 338
+}
+/*
 fn select_first_two_elements<'a>(items: &'a [String]) -> &'a [String] {
     &items[0..2]
 }
@@ -22,6 +29,7 @@ fn main() { // Class 335 and 336 lifetimes
     }
 
 }
+*/
 /*
 fn main() { // Class 329 lifetimes
     let dog = String::from("Watson");
